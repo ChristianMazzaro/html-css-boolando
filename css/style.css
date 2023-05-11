@@ -131,14 +131,14 @@ main .container .my-row .col-1-4 .product-container img {
 }
 
 .wishlist {
-    text-align: center;
-    color: red;
     position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 20px;
+    width: 15%;
+    right: 0;
+    top: 0;
     font-size: 2em;
-    display: none;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
@@ -179,6 +179,20 @@ footer .footer-bottom .footer-info-container{
 
 
 
+footer .footer-bottom .footer-info-container{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+
+}
 
 
 
@@ -223,12 +237,12 @@ debug main .container .col-1-4{
 }
 
 
-.debug footer section .footer-info-container{
+debug footer section .footer-info-container{
     height: 50px;
     background-color: yellow;
 }
 
-.debug footer section .footer-info-container > *{
+debug footer section .footer-info-container > *{
     background-color: blueviolet;
     outline: 2px dashed black;
     padding: 5px;
