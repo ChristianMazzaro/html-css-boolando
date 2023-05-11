@@ -99,6 +99,46 @@ main .container .my-row{
     margin-top: 7%;
 }
 
+main .container .my-row .col-1-4 .product-container img {
+    width: 100%;
+    display: block;
+}
+
+.product-container {
+    position: relative;
+}
+
+.discount {
+    background-color: green;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 38px;
+    bottom: 30px;
+    font-size: small;
+}
+
+
+.discount2 {
+    background-color: red;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    font-size: small;
+}
+
+.wishlist {
+    text-align: center;
+    color: red;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 20px;
+    font-size: 2em;
+    display: none;
+}
 
 
 /*
@@ -141,19 +181,19 @@ debug header .menu > *{
     outline: 2px dashed black;
 }
 
-.debug main .container{
+debug main .container{
     background-color: green;
     outline: 2px dashed black;
     height: 1000px;
 }
 
-.debug main .container .my-row{
+debug main .container .my-row{
     background-color: yellow;
     outline: 2px dashed black;
 }
 
 
-.debug main .container .col-1-4{
+debug main .container .col-1-4{
     height: 400px;
     background-color: blueviolet;
     outline: 2px dashed black;
