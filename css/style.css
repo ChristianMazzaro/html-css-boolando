@@ -108,13 +108,14 @@ main .container .my-row .col-1-4 .product-container img {
     position: relative;
 }
 
+
 .discount {
     background-color: green;
     color: white;
     padding: 3px;
     position: absolute;
     left: 38px;
-    bottom: 30px;
+    bottom: 20%;
     font-size: small;
 }
 
@@ -125,7 +126,7 @@ main .container .my-row .col-1-4 .product-container img {
     padding: 3px;
     position: absolute;
     left: 0;
-    bottom: 30px;
+    bottom: 20%;
     font-size: small;
 }
 
@@ -140,6 +141,28 @@ main .container .my-row .col-1-4 .product-container img {
     display: none;
 }
 
+
+.position-left{
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    font-size: small;
+    background-color: green;
+    color: white;
+    
+}
+
+
+.new-price{
+    color: red;
+    
+}
+
+.old-price{
+    text-decoration: line-through;
+
+}
 
 /*
 
