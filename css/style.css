@@ -101,7 +101,6 @@ main .container .my-row{
 
 main .container .my-row .col-1-4 .product-container img {
     width: 100%;
-    display: block;
 }
 
 .product-container {
@@ -163,6 +162,21 @@ main .container .my-row .col-1-4 .product-container img {
     text-decoration: line-through;
 
 }
+
+
+.second-img{
+    display: none;
+}
+
+
+.product-container:hover .second-img{
+    display:block
+}
+
+.product-container:hover .first-img{
+    display: none;
+}
+
 
 /*
 
